@@ -1,0 +1,22 @@
+runtime: python310
+service: default
+entrypoint: gunicorn -b :$PORT app:app
+
+handlers:
+- url: /static
+  static_dir: static/
+
+- url: /characters/luffy
+  static_dir: characters/luffy/
+
+- url: /characters/deadpool
+  static_dir: characters/deadpool/
+
+- url: /characters/bud
+  static_dir: characters/bud/
+
+- url: /.*
+  script: auto
+
+env_variables:
+  FLASK_ENV: "production"
