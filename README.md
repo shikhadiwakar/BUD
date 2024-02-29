@@ -21,5 +21,5 @@ Welcome to BUD, your AI companion that's always there for you! Whether you need 
 
 
 ## Getting Started
-To get started with BUD, simply [download](#) and install the application. Follow the on-screen instructions to set up your preferences and start interacting with your favorite characters.
+To get started with BUD, simply [download](https://drive.google.com/file/d/1wfNMa46LAt0QKpzMUpB5grspRBdPck3v/view?usp=sharing) and install the application. Follow the on-screen instructions to set up your preferences and start interacting with your favorite characters.
 
